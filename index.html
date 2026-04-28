@@ -85,43 +85,66 @@
 <section id="projects" class="py-5 bg-light">
   <div class="container">
     <h2 class="mb-4 text-primary">Projects</h2>
+
     <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0">
+      <div class="col-lg-6">
+        <div class="card h-100 shadow-sm border-0 project-card featured-project">
           <div class="card-body">
-            <h5 class="fw-bold">DevOps Transformation (ECB)</h5>
-            <ul>
-              <li>Automated CI/CD pipelines for Java & Python.</li>
-              <li>Integrated Terraform provisioning with Jenkins & AWS ECS.</li>
-              <li>Improved deployment reliability by 40%.</li>
-            </ul>
+            <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+              <div>
+                <p class="project-label mb-1">Live Cloud Project</p>
+                <h5 class="card-title fw-bold mb-2">Geo-Sentinel Web</h5>
+              </div>
+              <span class="badge text-bg-primary">Live</span>
+            </div>
+
+            <p class="card-text">
+              Geopolitical intelligence dashboard built with React, AWS (S3, CloudFront, DynamoDB), Terraform, and CI/CD. Designed with a cost-aware, production-style architecture.
+            </p>
+
+            <div class="tech-stack mb-4">
+              <span>React</span>
+              <span>AWS</span>
+              <span>Terraform</span>
+              <span>CloudFront</span>
+              <span>DynamoDB</span>
+              <span>S3</span>
+            </div>
+
+            <div class="d-flex gap-2 flex-wrap">
+              <a href="https://geo.sujaymuramalla.eu" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                Live Demo
+              </a>
+              <a href="https://github.com/Sujay-Muramalla/geo-sentinel-web" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">
+                Source Code
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <h5 class="fw-bold">Hybrid Cloud Migration</h5>
-            <ul>
-              <li>Migrated legacy apps to secure AWS hybrid setup.</li>
-              <li>Managed SSL cert rotation and endpoint monitoring.</li>
-              <li>Delivered compliant multi-region architecture.</li>
-            </ul>
+
+      <div class="col-lg-6">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-12">
+            <div class="card h-100 shadow-sm border-0 project-card">
+              <div class="card-body">
+                <h5 class="fw-bold">DevOps Transformation</h5>
+                <p class="card-text">CI/CD automation, Terraform provisioning, and AWS deployment workflows for enterprise environments.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-12">
+            <div class="card h-100 shadow-sm border-0 project-card">
+              <div class="card-body">
+                <h5 class="fw-bold">Hybrid Cloud Migration</h5>
+                <p class="card-text">Secure migration patterns, SSL certificate handling, endpoint monitoring, and compliant cloud integration.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0">
-          <div class="card-body">
-            <h5 class="fw-bold">Event-Driven Architecture RFP</h5>
-            <ul>
-              <li>Blueprint for Kafka-based event pipelines.</li>
-              <li>Aligned architecture with NIST & ISO controls.</li>
-              <li>Accelerated stakeholder buy-in with clear roadmap.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
@@ -178,8 +201,8 @@
       <div class="col-md-6">
         <div class="p-4 bg-light rounded shadow-sm">
           <p><strong>Email:</strong> <a href="mailto:speedbot2021@gmail.com">speedbot2021@gmail.com</a></p>
-          <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sujaymuramalla" target="_blank">linkedin.com/in/sujaymuramalla</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/sujaymuramalla" target="_blank">github.com/sujaymuramalla</a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sujaymuramalla" target="_blank" rel="noopener noreferrer">linkedin.com/in/sujaymuramalla</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/sujaymuramalla" target="_blank" rel="noopener noreferrer">github.com/sujaymuramalla</a></p>
         </div>
       </div>
     </div>
@@ -188,7 +211,7 @@
 
 <footer class="bg-dark text-white text-center py-3">
   <div class="container">
-    <small>© <span id="year"></span> Sujay Muramalla · Hosted on GoDaddy</small>
+    <small>© <span id="year"></span> Sujay Muramalla · Hosted on GitHub Pages</small>
   </div>
 </footer>
 
